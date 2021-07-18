@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-size: 18px;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+header {
+  background: url("images/bg-header-desktop.png") no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-design {
+  display: flex;
+  height: 70%;
+  width: 70%;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+.top-design h1 {
+  font-size: 3rem;
+}
+
+.top-design p {
+  max-width: 80%;
+}
+
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+button {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  width: 250px;
+  height: 3rem;
+  border-radius: 20px;
+  margin: 30px 10px 0px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.ios-b {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.android-b {
+  background-color: hsl(233, 100%, 69%);
+}
+
+section {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+section p {
+  margin-top: 20px;
+  max-width: 55%;
+}
+
+section h1 {
+  font-size: 2.5rem;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.monitor {
+  background: url("images/image-computer.png") no-repeat;
+  background-position-x: right;
+  height: 600px;
+  width: 50%;
+}
+
+.services {
+  width: 40%;
+  height: 600px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: left;
+  justify-content: center;
+}
+
+.services h3 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+.services p {
+  text-align: left;
+  margin: 0;
+  padding: 10px 0 10px 0;
+}
+
+.img-devices {
+  text-align: center;
+  width: 100%;
+}
+
+article.items {
+  justify-content: space-between;
+  width: 70%;
+  text-align: center;
+}
+
+.items p {
+  margin: 0 auto;
+}
+
+.items h3 {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  font-size: 1.7rem;
+  padding: 20px;
+}
+
+article.empresas {
+  width: 70%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  margin-top: 130px;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  background-color: hsl(201deg 4% 86%);
+  padding: 50px 0 50px 0;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 20px;
+}
+
+a {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social a {
+  padding: 0 20px 0 20px;
+}
+
+
